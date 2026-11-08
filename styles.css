@@ -186,3 +186,13 @@
 .github-legend i{width:14px;height:14px}
 .site-footer{max-width:1600px;margin:0 auto 30px;padding:18px 20px 0;border-top:1px solid #242428}
 @media(max-width:700px){.github-section{padding:0 18px 32px}.github-title{margin-bottom:18px}.github-title h2{font-size:18px}.github-title a{font-size:14px}.github-title svg{width:18px;height:18px}.github-card{padding:24px 20px;border-radius:22px}.github-summary{margin-bottom:22px}.github-summary p{font-size:17px}.github-summary strong{font-size:19px}.github-bottom{font-size:11px}.github-legend{margin-left:auto}.site-footer{margin:0 18px 24px;padding:16px 0 0}}
+
+/* Keep the Codex snapshot readable without dominating the first screen. */
+.usage-card{padding:20px 24px 16px}
+.usage-head h2{margin:6px 0 3px}
+.chart{height:98px;margin-top:8px}
+.chart-key{margin-top:8px;padding-top:8px}
+.source-note{margin:8px 0 0}
+.source-note b{font-weight:600;color:#a7a7ad}
+@media(max-width:700px){.usage-card{padding:19px 20px 15px}.chart{height:84px}}
+@media(max-width:520px){.usage-card{padding:18px 18px 14px}.chart{height:78px}.chart-key span:last-child{width:auto}}
