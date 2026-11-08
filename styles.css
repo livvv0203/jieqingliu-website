@@ -211,3 +211,4 @@
 .social-youtube:is(:hover,:focus-visible) svg path{fill:#fff}
 .social-xiaohongshu svg{width:30px;height:19px}
 .social-xiaohongshu:is(:hover,:focus-visible) svg{color:#ff2442}
+@media(max-width:1100px){.social-links{gap:4px 3px;margin-left:-6px}.social-links a{gap:5px;padding:7px 6px}.social-xiaohongshu svg{width:28px}}
