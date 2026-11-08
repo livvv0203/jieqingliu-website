@@ -156,3 +156,7 @@
 .profile-links a .button-label{display:block;color:#c9c9cd;font-weight:500;line-height:1.2;white-space:nowrap}
 .profile-links a .button-arrow{display:block;width:16px;color:#c9c9cd;font-size:17px;line-height:1;text-align:center}
 .profile-note span,.project-meta span:last-child,.golf-pin,.closet-sparkle,.site-icon span{color:var(--pink)}
+.github-day[data-level="1"]{background:#5c3343}
+.github-day[data-level="2"]{background:#8e4f69}
+.github-day[data-level="3"]{background:#c87998}
+.github-day[data-level="4"]{background:var(--pink)}
