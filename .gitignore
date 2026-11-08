@@ -1,0 +1,9 @@
+# Generated site and local previews
+dist/
+*.zip
+*.png
+
+# Local tooling
+.DS_Store
+node_modules/
+*.log
