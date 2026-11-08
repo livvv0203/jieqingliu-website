@@ -196,3 +196,16 @@
 .source-note b{font-weight:600;color:#a7a7ad}
 @media(max-width:700px){.usage-card{padding:19px 20px 15px}.chart{height:84px}}
 @media(max-width:520px){.usage-card{padding:18px 18px 14px}.chart{height:78px}.chart-key span:last-child{width:auto}}
+
+/* Social links use a quiet pill and reveal each network's color on interaction. */
+.social-links{gap:4px 6px;margin-left:-9px}
+.social-links a{gap:6px;padding:7px 9px;border-radius:999px;background:transparent;transition:background-color .2s,color .2s}
+.social-links a:is(:hover,:focus-visible){background:#252527;color:#eeeef0}
+.social-links a:is(:hover,:focus-visible) strong{color:#fff}
+.social-x:is(:hover,:focus-visible) svg{color:#f5f5f5}
+.social-instagram:is(:hover,:focus-visible) svg{color:#fa6aa9}
+.social-linkedin:is(:hover,:focus-visible) .linkedin-mark{color:#0a66c2}
+.social-linkedin:is(:hover,:focus-visible) .linkedin-mark b{color:#fff}
+.social-youtube svg path{fill:#19191b}
+.social-youtube:is(:hover,:focus-visible) svg{color:#ff0033}
+.social-youtube:is(:hover,:focus-visible) svg path{fill:#fff}
