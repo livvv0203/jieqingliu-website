@@ -149,3 +149,10 @@
   .project-head p{font-size:14px}
   .github-card{padding:20px 18px}
 }
+
+/* Keep the project shortcut centered as three separate pieces on every screen. */
+.profile-links a{display:inline-grid;grid-template-columns:20px auto 16px;align-items:center;column-gap:9px;line-height:1;min-height:43px}
+.profile-links a .button-emoji{display:block;width:20px;font-size:18px;line-height:1;text-align:center}
+.profile-links a .button-label{display:block;color:#c9c9cd;font-weight:500;line-height:1.2;white-space:nowrap}
+.profile-links a .button-arrow{display:block;width:16px;color:#c9c9cd;font-size:17px;line-height:1;text-align:center}
+.profile-note span,.project-meta span:last-child,.golf-pin,.closet-sparkle,.site-icon span{color:var(--pink)}
