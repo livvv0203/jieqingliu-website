@@ -209,3 +209,12 @@
 .social-youtube svg path{fill:#19191b}
 .social-youtube:is(:hover,:focus-visible) svg{color:#ff0033}
 .social-youtube:is(:hover,:focus-visible) svg path{fill:#fff}
+
+/* Compact project totals keep the Codex card readable on desktop and mobile. */
+.project-usage{display:grid;gap:8px;margin:17px 0 13px}
+.usage-project-row{display:grid;grid-template-columns:minmax(0,220px) minmax(40px,1fr) 54px;align-items:center;gap:12px;min-height:18px;color:#c7c7cb;font-size:12px}
+.usage-project-name{min-width:0;line-height:1.2}
+.usage-project-track{height:7px;overflow:hidden;border-radius:999px;background:#303036}
+.usage-project-track i{display:block;width:var(--width);height:100%;border-radius:inherit;background:linear-gradient(90deg,#d87d9e,var(--pink))}
+.usage-project-row strong{text-align:right;color:#f1f1f2;font-size:12px;font-variant-numeric:tabular-nums}
+@media(max-width:520px){.project-usage{gap:9px;margin:16px 0 13px}.usage-project-row{grid-template-columns:minmax(0,145px) minmax(28px,1fr) 45px;gap:8px;font-size:11px}.usage-project-row strong{font-size:11px}}
